@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:hint="여행 일정 이름"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="center"
+        android:visibility="gone"
+        android:hint="코드" />
+
+    <LinearLayout
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/two1"
+            android:scaleType="fitCenter"
+            tools:ignore="SpeakableTextPresentCheck"/>
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/two2"
+            android:scaleType="fitCenter"
+            tools:ignore="SpeakableTextPresentCheck"/>
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/two3"
+            android:scaleType="fitCenter"
+            android:visibility="visible"
+            tools:ignore="SpeakableTextPresentCheck"/>
+    </LinearLayout>
+
+</LinearLayout>
